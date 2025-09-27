@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015939338597",
+    "project_id": "foodey-cc147",
+    "storage_bucket": "foodey-cc147.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015939338597:android:87485ca6de3dc0a5c6118c",
+        "android_client_info": {
+          "package_name": "app.lath.foodey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015939338597-gbovrnbc1jl7p1tb11ufkoja6utsmm6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkuVPSuG_703U3SHRmaxg70HESm69pRLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015939338597-gbovrnbc1jl7p1tb11ufkoja6utsmm6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

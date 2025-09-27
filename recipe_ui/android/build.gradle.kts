@@ -19,3 +19,10 @@ subprojects {
 tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
+
+buildscript {
+    dependencies {
+        // 👇 add this line for Firebase
+        classpath("com.google.gms:google-services:4.4.1")
+    }
+}

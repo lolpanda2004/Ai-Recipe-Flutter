@@ -1,33 +1,24 @@
 import 'package:flutter/material.dart';
-import 'theme/app_theme.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:recipe_ui/providers/theme_provider.dart';
+import 'screens/home_page.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(); // ✅ required
+  runApp(const FoodEyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class FoodEyApp extends StatelessWidget {
+  const FoodEyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Recipe App',
+      title: 'Food-ey',
       theme: AppTheme.lightTheme,
-      darkTheme: AppTheme.darkTheme,
-      themeMode: ThemeMode.system, // Auto-switch based on device setting
+      debugShowCheckedModeBanner: false,
       home: const HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Recipe App')),
-      body: const Center(child: Text('Hello Recipes!')),
     );
   }
 }
