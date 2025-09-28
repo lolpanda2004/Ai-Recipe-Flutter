@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1015939338597:android:87485ca6de3dc0a5c6118c",
+        "mobilesdk_app_id": "1:1015939338597:android:2d4716da483370dac6118c",
         "android_client_info": {
-          "package_name": "app.lath.foodey"
+          "package_name": "com.lath.foodey"
         }
       },
       "oauth_client": [

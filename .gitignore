@@ -1,0 +1,49 @@
+# ====================
+# Flutter (recipe_ui) 
+# ====================
+recipe_ui/.dart_tool/
+recipe_ui/.packages
+recipe_ui/.pub/
+recipe_ui/build/
+recipe_ui/.flutter-plugins
+recipe_ui/.flutter-plugins-dependencies
+recipe_ui/**/GeneratedPluginRegistrant.*
+recipe_ui/*.lock
+
+# iOS
+recipe_ui/ios/Flutter/Flutter.framework
+recipe_ui/ios/Flutter/Flutter.podspec
+recipe_ui/ios/Pods/
+recipe_ui/ios/.symlinks/
+recipe_ui/ios/Flutter/Generated.xcconfig
+recipe_ui/ios/Flutter/flutter_export_environment.sh
+
+# Android
+recipe_ui/android/.gradle/
+recipe_ui/android/app/build/
+recipe_ui/android/local.properties
+
+# ====================
+# Node.js (recipe_backend)
+# ====================
+recipe_backend/node_modules/
+recipe_backend/npm-debug.log*
+recipe_backend/yarn-debug.log*
+recipe_backend/yarn-error.log*
+recipe_backend/.pnpm-debug.log*
+recipe_backend/package-lock.json
+recipe_backend/yarn.lock
+
+# ====================
+# OS / IDE common
+# ====================
+.DS_Store
+Thumbs.db
+*.iml
+*.idea/
+.vscode/
+*.swp
+
+# Firebase configs
+recipe_ui/android/app/google-services.json
+recipe_ui/ios/Runner/GoogleService-Info.plist
