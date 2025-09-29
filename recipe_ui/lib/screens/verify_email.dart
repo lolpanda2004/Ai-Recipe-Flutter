@@ -19,7 +19,7 @@ class _VerifyEmailPageState extends State<VerifyEmailPage> {
     setState(() => loading = false);
 
     if (verified && mounted) {
-      Navigator.pushReplacementNamed(context, '/home');
+      Navigator.pushReplacementNamed(context, '/shell');
     }
   }
 

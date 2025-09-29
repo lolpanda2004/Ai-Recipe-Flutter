@@ -23,6 +23,8 @@ recipe_ui/android/.gradle/
 recipe_ui/android/app/build/
 recipe_ui/android/local.properties
 
+recipe_ui/.env
+
 # ====================
 # Node.js (recipe_backend)
 # ====================
